@@ -42,4 +42,5 @@ ruta del repositorio en gitHub https://github.com/mithrandir1589/psp2_2
 
 ***************************************************************************
 Para empaquetar el programa con Maven, se debe ejecutar la sentencia "mvn package" en la carpeta raíz de donde se haga el pull del
-repositorio git, la cual es la que se descargará desde el repositorio GitHub y donde se encuentra el pom.xml.
+repositorio git, la cual es la que se descargará desde el repositorio GitHub y donde se encuentra el pom.xml. Para correr las pruebas unitarias usando maven, es necesario correr el comando
+mvn -Dtest=Pruebas test , donde Pruebas es la clase con las pruebas en JUnit el cual referencian dos archivos (pruebas.txt y prueba2.txt) en la ruta src\site\resources\PSP2_2\test.

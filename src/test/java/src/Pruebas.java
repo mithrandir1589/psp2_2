@@ -9,8 +9,8 @@ public class Pruebas {
 	@Test
 	public void devolverLineasPorClase() {
 		Datos datos = new Datos();
-		datos.obtenerListas("C:\\prueba.txt");
-		LinkedList<Double> listaPruebaLOC = new LinkedList();
+		datos.obtenerListas("src\\site\\resources\\PSP2_2\\test\\prueba.txt");
+		LinkedList<Double> listaPruebaLOC = new LinkedList<Double>();
 		
 		listaPruebaLOC.add((double)18);
 		listaPruebaLOC.add((double)18);
@@ -32,8 +32,8 @@ public class Pruebas {
 	@Test
 	public void devolverCantidadMetodos() {
 		Datos datos = new Datos();
-		datos.obtenerListas("C:\\prueba.txt");
-		LinkedList<Double> listaPruebaCantidadMetodos = new LinkedList();
+		datos.obtenerListas("src\\site\\resources\\PSP2_2\\test\\prueba.txt");
+		LinkedList<Double> listaPruebaCantidadMetodos = new LinkedList<Double>();
 		
 		listaPruebaCantidadMetodos.add((double)3);
 		listaPruebaCantidadMetodos.add((double)3);
@@ -60,35 +60,35 @@ public class Pruebas {
 	@Test
 	public void pruebaGetVS(){
 		Calculos calculos = new Calculos(); 
-		calculos.inicializar("C:\\prueba2.txt");
+		calculos.inicializar("src\\site\\resources\\PSP2_2\\test\\prueba2.txt");
 		assertEquals(6.3375, calculos.getVS(),0.0001);
 	}
 	
 	@Test
 	public void pruebaGetS(){
 		Calculos calculos = new Calculos(); 
-		calculos.inicializar("C:\\prueba2.txt");
+		calculos.inicializar("src\\site\\resources\\PSP2_2\\test\\prueba2.txt");
 		assertEquals(8.4393, calculos.getS(),0.0001);
 	}
 	
 	@Test
 	public void pruebaGetM(){
 		Calculos calculos = new Calculos(); 
-		calculos.inicializar("C:\\prueba2.txt");
+		calculos.inicializar("src\\site\\resources\\PSP2_2\\test\\prueba2.txt");
 		assertEquals(11.2381, calculos.getM(),0.0001);
 	}
 	
 	@Test
 	public void pruebaGetL(){
 		Calculos calculos = new Calculos(); 
-		calculos.inicializar("C:\\prueba2.txt");
+		calculos.inicializar("src\\site\\resources\\PSP2_2\\test\\prueba2.txt");
 		assertEquals(14.9650, calculos.getL(),0.0001);
 	}
 	
 	@Test
 	public void pruebaGetVL(){
 		Calculos calculos = new Calculos(); 
-		calculos.inicializar("C:\\prueba2.txt");
+		calculos.inicializar("src\\site\\resources\\PSP2_2\\test\\prueba2.txt");
 		assertEquals(19.9280, calculos.getVL(),0.0001);
 	}
 	
